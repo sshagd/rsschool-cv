@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=980, initial-scale=1.0, user-scalable=yes">
+    <title>Alexandra Pagoda CV</title>
+</head>
+<body class="outer">
+
+
+<h1>Personal data</h1>
+<p>Name: Alexandra<br /> Surname: Pagoda<br /> City: Minsk<br /> Contact information:<br /> Phone: +375336496686 (Life, Viber, Telegram)<br /> Email: <a href="mailto:a.pagoda@inbox.ru">a.pagoda@inbox.ru</a><br /> Bitbucket: <a href="http://bitbucket.org/sshagd/">bitbucket.org/sshagd/</a></p>
+<img src="https://www.imgonline.com.ua/examples/bee-on-daisy.jpg" alt="Александра" high="240" width="320"/>
+<h1>Summary and skills</h1>
+<ul>
+    <li>Java SE</li>
+    <li>Java EE</li>
+    <li>JavaScript</li>
+    <li>SQL</li>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+<h4>English level</h4>
+<p>English level: B1</p>
+<h1>Education</h1>
+
+<table class="table" align="center">
+    <thead>
+    <tr>
+        <th>Category</th>
+        <th>Information</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><strong><em>University</em></strong></td>
+        <td>Belarusian National Technical University</td>
+    </tr>
+    <tr>
+        <td>Faculty</td>
+        <td>Faculty of Information Technologies and Robotics</td>
+    </tr>
+    <tr>
+        <td>Speciality</td>
+        <td>Automation of Technological Processes and Production</td>
+    </tr>
+    <tr>
+        <td>Period</td>
+        <td>2016-2021</td>
+    </tr>
+    <tr>
+        <td>Basis</td>
+        <td>Full-time</td>
+    </tr>
+    <tr>
+        <td><strong><em>Training</em></strong></td>
+        <td>EPAM Systems</td>
+    </tr>
+    <tr>
+        <td>Speciality</td>
+        <td>Java Web Development</td>
+    </tr>
+    <tr>
+        <td>Period</td>
+        <td>2018-2019</td>
+    </tr>
+    </tbody>
+</table>
+
+<h1>Experience</h1>
+<ul>
+    <li>Information Technology Center of the Ministry of Labour and Social Protection Republic of Belarus<br /> Duration: 11 months<br /> Position: software engineer</li>
+</ul>
+<h1>My code example</h1>
+<pre><code>&lt;xs:complexType name="tariff"&gt;
+                &lt;xs:attribute name="id" type="xs:ID" use="required"/&gt;
+                &lt;xs:attribute name="name" type="xs:string" use="required"/&gt;
+                &lt;xs:attribute name="operator_name" type="xs:string" use="required"/&gt;
+                &lt;xs:attribute name="payroll" type="xs:double" use="required"/&gt;
+        &lt;/xs:complexType&gt;
+
+                &lt;xs:element name="call_prices"&gt;
+                    &lt;xs:complexType&gt;
+                        &lt;xs:sequence&gt;
+                            &lt;xs:element name="internal_calls" type="xs:double"/&gt;
+                            &lt;xs:element name="external_calls" type="xs:double"/&gt;
+                            &lt;xs:element name="landline_calls" type="xs:double"/&gt;
+                        &lt;/xs:sequence&gt;
+                    &lt;/xs:complexType&gt;
+                &lt;/xs:element&gt;
+
+                &lt;xs:element name="SMS_price" type="xs:double"/&gt;
+
+                &lt;xs:complexType name="parameters"&gt;
+                            &lt;xs:attribute name="favourite_number" type="xs:boolean" default="false"/&gt;
+                            &lt;xs:attribute name="tarification" default="minute"&gt;
+                                &lt;xs:simpleType&gt;
+                                    &lt;xs:restriction base="xs:string"&gt;
+                                        &lt;xs:enumeration value="12 seconds"&gt;
+                                        &lt;/xs:enumeration&gt;
+                                        &lt;xs:enumeration value="20 seconds"&gt;
+                                        &lt;/xs:enumeration&gt;
+                                        &lt;xs:enumeration value="30 seconds"&gt;
+                                        &lt;/xs:enumeration&gt;
+                                        &lt;xs:enumeration value="minute"&gt;
+                                        &lt;/xs:enumeration&gt;
+                                    &lt;/xs:restriction&gt;
+                                &lt;/xs:simpleType&gt;
+                            &lt;/xs:attribute&gt;
+
+                            &lt;xs:attribute name="connection_fee" type="xs:double"/&gt;
+                            &lt;xs:attribute name="available_until" type="xs:date"/&gt;
+                            &lt;xs:attribute name="internet_traffic" type="xs:double" use="required"/&gt;
+                &lt;/xs:complexType&gt;
+
+&lt;/xs:schema&gt;
+</code></pre>
+
+
+</body>
+</html>
+
+<style>
+  .outer {
+    text-align: center;
+    max-width: 1024px;
+  }
+</style>
